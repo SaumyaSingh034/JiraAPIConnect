@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d3f7f67-d4d5-40de-b243-4ac1803e2f24" name="Changes" comment="" />
+    <list default="true" id="8d3f7f67-d4d5-40de-b243-4ac1803e2f24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JiraAPITests/CreateSingleBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JiraAPITests/CreateSingleBug.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -38,7 +44,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateSingleBug.createIssueSingleBug">
+  <component name="RunManager" selected="TestNG.CreateSingleBug">
     <configuration name="JiraAPITests.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JiraAPITests.Test" />
       <module name="JiraRestAPIConnect" />
@@ -48,13 +54,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="JiraRestAPIConnect" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +106,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateSingleBug.getIssueIdAndAddAttachement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JiraRestAPIConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAPITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAPITests" />
+      <option name="MAIN_CLASS_NAME" value="JiraAPITests.CreateSingleBug" />
+      <option name="METHOD_NAME" value="getIssueIdAndAddAttachement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateSingleBug" />
+        <item itemvalue="TestNG.CreateSingleBug.getIssueIdAndAddAttachement" />
         <item itemvalue="TestNG.CreateSingleBug.createIssueSingleBug" />
         <item itemvalue="Application.JiraAPITests.Test" />
         <item itemvalue="Application.TestRahuyl" />
-        <item itemvalue="TestNG.CreateSingleBug" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +150,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/JiraAPITests/CreateSingleBug.java</url>
-          <line>38</line>
+          <line>42</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
